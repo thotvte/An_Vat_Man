@@ -1,0 +1,11 @@
+D:\C#\quanlyquanan4\BLL\bin\Debug\BLL.dll
+D:\C#\quanlyquanan4\BLL\bin\Debug\BLL.pdb
+D:\C#\quanlyquanan4\BLL\bin\Debug\DAL.dll
+D:\C#\quanlyquanan4\BLL\bin\Debug\DTO.dll
+D:\C#\quanlyquanan4\BLL\bin\Debug\DAL.pdb
+D:\C#\quanlyquanan4\BLL\bin\Debug\DTO.pdb
+D:\C#\quanlyquanan4\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\C#\quanlyquanan4\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\C#\quanlyquanan4\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\C#\quanlyquanan4\BLL\obj\Debug\BLL.dll
+D:\C#\quanlyquanan4\BLL\obj\Debug\BLL.pdb
