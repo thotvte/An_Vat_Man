@@ -32,7 +32,7 @@ namespace GUI
             cbloai.DisplayMember = "loai";
         }
         void LoadfoodListbyCategoryID(int id)
-        {
+        {   
             List<Food> listfood = FoodDAL.Instance.GetFoodbyCategoryID(id);
             cbdoan.DataSource = listfood;
             cbdoan.DisplayMember = "tenmon";
@@ -59,10 +59,10 @@ namespace GUI
                 switch (item.Trangthai)
                 {
                     case "Trống":
-                        btn.BackColor = Color.Aqua;
+                        btn.BackColor = Color.DeepSkyBlue;
                         break;
                     default:
-                        btn.BackColor = Color.Red;
+                        btn.BackColor = Color.HotPink;
                         break;
                 }
             }
@@ -71,7 +71,7 @@ namespace GUI
         void showbill(int id)
         {
             lsvhoadon.Items.Clear();
-            List<menu> listBillinfo = menuDAL.Instance.GetlistMenuByTable(id);
+            List<GUI.DTO.menu> listBillinfo = menuDAL.Instance.GetlistMenuByTable(id);
             float totaPrice = 0;
             foreach (menu item in listBillinfo)
             {
@@ -153,10 +153,12 @@ namespace GUI
             {
                 BillDAL.Instance.InsertBill(Table.ID);
                 BillinfoDAL.Instance.InserBillInfo(BillDAL.Instance.Getmaxidhoadon(), idfood, count);
-            }else
+            }
+            else
             {
                 BillinfoDAL.Instance.InserBillInfo(idbill, idfood, count);
             }
+            showbill(Table.ID);
         }
 
         private void flpTable_Paint(object sender, PaintEventArgs e)

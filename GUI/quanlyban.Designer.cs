@@ -47,25 +47,25 @@
             this.btgiamgia = new Guna.UI2.WinForms.Guna2Button();
             this.cbchuyenban = new System.Windows.Forms.ComboBox();
             this.btchuyenban = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btthemmon = new Guna.UI2.WinForms.Guna2Button();
             this.nmslmonan = new System.Windows.Forms.NumericUpDown();
             this.cbloai = new System.Windows.Forms.ComboBox();
             this.cbdoan = new System.Windows.Forms.ComboBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmgiamgia)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmslmonan)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -87,7 +87,7 @@
             this.thôngTinTàiKhoảnToolStripMenuItem,
             this.đăngXuấtToolStripMenuItem});
             this.taiToolStripMenuItem.Name = "taiToolStripMenuItem";
-            this.taiToolStripMenuItem.Size = new System.Drawing.Size(89, 24);
+            this.taiToolStripMenuItem.Size = new System.Drawing.Size(89, 26);
             this.taiToolStripMenuItem.Text = "Tài khoản ";
             // 
             // thôngTinTàiKhoảnToolStripMenuItem
@@ -106,7 +106,7 @@
             // adminToolStripMenuItem
             // 
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(67, 26);
             this.adminToolStripMenuItem.Text = "Admin";
             this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
             // 
@@ -200,6 +200,7 @@
             this.btthanhtoan.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btthanhtoan.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btthanhtoan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btthanhtoan.FillColor = System.Drawing.Color.SeaGreen;
             this.btthanhtoan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btthanhtoan.ForeColor = System.Drawing.Color.White;
             this.btthanhtoan.Location = new System.Drawing.Point(14, 374);
@@ -227,6 +228,7 @@
             this.btgiamgia.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btgiamgia.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btgiamgia.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btgiamgia.FillColor = System.Drawing.Color.SeaGreen;
             this.btgiamgia.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btgiamgia.ForeColor = System.Drawing.Color.White;
             this.btgiamgia.Location = new System.Drawing.Point(14, 281);
@@ -245,10 +247,12 @@
             // 
             // btchuyenban
             // 
+            this.btchuyenban.BackColor = System.Drawing.Color.SeaGreen;
             this.btchuyenban.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btchuyenban.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btchuyenban.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btchuyenban.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btchuyenban.FillColor = System.Drawing.Color.SeaGreen;
             this.btchuyenban.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btchuyenban.ForeColor = System.Drawing.Color.White;
             this.btchuyenban.Location = new System.Drawing.Point(14, 183);
@@ -256,16 +260,6 @@
             this.btchuyenban.Size = new System.Drawing.Size(154, 42);
             this.btchuyenban.TabIndex = 3;
             this.btchuyenban.Text = "Chuyển bàn";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::GUI.Properties.Resources.Screenshot_2023_11_10_0954271;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(181, 154);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // panel4
             // 
@@ -285,16 +279,6 @@
             this.panel6.Size = new System.Drawing.Size(232, 143);
             this.panel6.TabIndex = 5;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::GUI.Properties.Resources.z4892295400944_bd1eae379ba47df0189a3889160b50fc;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(229, 137);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel5
             // 
             this.panel5.Controls.Add(this.btthemmon);
@@ -308,15 +292,17 @@
             // 
             // btthemmon
             // 
+            this.btthemmon.BackColor = System.Drawing.Color.Green;
             this.btthemmon.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btthemmon.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btthemmon.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btthemmon.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btthemmon.FillColor = System.Drawing.Color.SeaGreen;
             this.btthemmon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btthemmon.ForeColor = System.Drawing.Color.White;
-            this.btthemmon.Location = new System.Drawing.Point(7, 74);
+            this.btthemmon.Location = new System.Drawing.Point(18, 80);
             this.btthemmon.Name = "btthemmon";
-            this.btthemmon.Size = new System.Drawing.Size(102, 54);
+            this.btthemmon.Size = new System.Drawing.Size(125, 45);
             this.btthemmon.TabIndex = 2;
             this.btthemmon.Text = "Thêm";
             this.btthemmon.Click += new System.EventHandler(this.btthemmon_Click);
@@ -352,6 +338,27 @@
             this.cbdoan.TabIndex = 1;
             this.cbdoan.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pictureBox2.Image = global::GUI.Properties.Resources.istockphoto_1194891687_612x612;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(226, 137);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::GUI.Properties.Resources.Screenshot_2023_11_10_0954271;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(181, 154);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // quanlyban
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -374,12 +381,12 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmgiamgia)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nmslmonan)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

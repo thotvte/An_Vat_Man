@@ -21,7 +21,7 @@ namespace GUI.DAL
         public List<menu>GetlistMenuByTable(int id)
         {
             List<menu> listmenu = new List<menu>();
-            string query = "select f.tenmon , bi.count,f.gia,f.gia*bi.count as totalPrice from hoadon as b , thongtinhoadon as bi,menu as f where bi.idbill = b.id and bi.idfood = f.idmonan and b.trangthai = 0 and b.idban =  " + id;
+            string query = "select f.tenmon , bi.count,f.gia,f.gia*bi.count as totalPrice from hoadon as b , thongtinhoadon as bi,menu as f where bi.idbill = b.id and bi.idfood = f.id and b.trangthai = 0 and b.idban =  " + id;
             DataTable data = ketnoisql.Instance.ExecuteQuery(query);
             foreach (DataRow item in data.Rows)
             {

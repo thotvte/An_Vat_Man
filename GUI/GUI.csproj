@@ -58,6 +58,30 @@
     <Compile Include="admin.Designer.cs">
       <DependentUpon>admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="suakhuyenmai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suakhuyenmai.Designer.cs">
+      <DependentUpon>suakhuyenmai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="suamonan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suamonan.Designer.cs">
+      <DependentUpon>suamonan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="themkhuyenmai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="themkhuyenmai.Designer.cs">
+      <DependentUpon>themkhuyenmai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="themmonan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="themmonan.Designer.cs">
+      <DependentUpon>themmonan.cs</DependentUpon>
+    </Compile>
     <Compile Include="bep.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +124,18 @@
     </Compile>
     <EmbeddedResource Include="admin.resx">
       <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suakhuyenmai.resx">
+      <DependentUpon>suakhuyenmai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suamonan.resx">
+      <DependentUpon>suamonan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="themkhuyenmai.resx">
+      <DependentUpon>themkhuyenmai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="themmonan.resx">
+      <DependentUpon>themmonan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dangnhap.resx">
       <DependentUpon>dangnhap.cs</DependentUpon>
@@ -160,6 +196,117 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\395148108_1000279037751701_1024180486404782875_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-gallery-icon-for-your-project-png-image_1731100.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1194891687-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1437023024-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-3d-tick-sign-icon-okay-yes-photo-image_970356.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-add-vector-icon-png-image_470700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3405244.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search7780.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-add-vector-icon-png-image_4707001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34052441.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search77801.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-add-vector-icon-png-image_4707002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34052442.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search77802.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-add-vector-icon-png-image_4707003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34052443.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search77803.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-add-vector-icon-png-image_4707004.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34052444.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search77804.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-add-vector-icon-png-image_4707005.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-821608714-1024x10241.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34052445.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search77805.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-add-vector-icon-png-image_4707006.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34052446.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-hospital-favicon-desktop-wallpaper-view-details-icon-5ab04669bd62c1.7923114915215018017757.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\703171.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-11-10 093111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list-icon-png_265066.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-tablecloth-chair-dining-room-logo-table-restaurant-icon-5b568743d66757.6849279715323973798782.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-charity-poster-donation-illustration-vector-png-image_35671530.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-251.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-statistics-icon-design-png-image_1011318.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-portable-network-graphics-computer-icons-discounts-miaosha-svg-png-icon-free-download-232195-onl-5c2a1200b4c8d9.7343111715462609927405.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-warehouse-inventory-line-icon-vector-png-image_1820365 %281%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

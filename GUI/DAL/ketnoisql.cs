@@ -71,7 +71,7 @@ namespace GUI.DAL
                     }
 
                 }
-                SqlDataAdapter adapter = new SqlDataAdapter(command);
+               
                 data = command.ExecuteNonQuery();
                 connection.Close();
 
@@ -100,7 +100,7 @@ namespace GUI.DAL
                     }
 
                 }
-                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                
                 data = command.ExecuteScalar();
                 connection.Close();
 

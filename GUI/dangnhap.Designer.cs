@@ -30,11 +30,11 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.btbdangnhap = new Guna.UI2.WinForms.Guna2Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.txbmatkhau = new Guna.UI2.WinForms.Guna2TextBox();
             this.txbtaikhoan = new Guna.UI2.WinForms.Guna2TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -68,55 +68,6 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "USER LOGIN";
             // 
-            // guna2Button3
-            // 
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.Lime;
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Image = global::GUI.Properties.Resources._70317;
-            this.guna2Button3.Location = new System.Drawing.Point(210, 358);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(126, 45);
-            this.guna2Button3.TabIndex = 6;
-            this.guna2Button3.Text = "Thoát";
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Lime;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Image = global::GUI.Properties.Resources.istockphoto_821608714_1024x1024;
-            this.guna2Button2.Location = new System.Drawing.Point(63, 358);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(126, 45);
-            this.guna2Button2.TabIndex = 5;
-            this.guna2Button2.Text = "Đăng kí";
-            // 
-            // btbdangnhap
-            // 
-            this.btbdangnhap.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btbdangnhap.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btbdangnhap.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btbdangnhap.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btbdangnhap.FillColor = System.Drawing.Color.Lime;
-            this.btbdangnhap.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btbdangnhap.ForeColor = System.Drawing.Color.White;
-            this.btbdangnhap.Image = global::GUI.Properties.Resources._152532;
-            this.btbdangnhap.Location = new System.Drawing.Point(110, 307);
-            this.btbdangnhap.Name = "btbdangnhap";
-            this.btbdangnhap.Size = new System.Drawing.Size(189, 45);
-            this.btbdangnhap.TabIndex = 4;
-            this.btbdangnhap.Text = "Đăng nhập";
-            this.btbdangnhap.Click += new System.EventHandler(this.btbdangnhap_Click);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -138,10 +89,59 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Tài khoản";
             // 
+            // guna2Button3
+            // 
+            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button3.FillColor = System.Drawing.Color.SeaGreen;
+            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.Image = global::GUI.Properties.Resources._70317;
+            this.guna2Button3.Location = new System.Drawing.Point(210, 358);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.Size = new System.Drawing.Size(126, 45);
+            this.guna2Button3.TabIndex = 6;
+            this.guna2Button3.Text = "Thoát";
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.SeaGreen;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.Image = global::GUI.Properties.Resources.istockphoto_821608714_1024x1024;
+            this.guna2Button2.Location = new System.Drawing.Point(63, 358);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(126, 45);
+            this.guna2Button2.TabIndex = 5;
+            this.guna2Button2.Text = "Đăng kí";
+            // 
+            // btbdangnhap
+            // 
+            this.btbdangnhap.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btbdangnhap.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btbdangnhap.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btbdangnhap.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btbdangnhap.FillColor = System.Drawing.Color.SeaGreen;
+            this.btbdangnhap.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btbdangnhap.ForeColor = System.Drawing.Color.White;
+            this.btbdangnhap.Image = global::GUI.Properties.Resources._152532;
+            this.btbdangnhap.Location = new System.Drawing.Point(110, 307);
+            this.btbdangnhap.Name = "btbdangnhap";
+            this.btbdangnhap.Size = new System.Drawing.Size(189, 45);
+            this.btbdangnhap.TabIndex = 4;
+            this.btbdangnhap.Text = "Đăng nhập";
+            this.btbdangnhap.Click += new System.EventHandler(this.btbdangnhap_Click);
+            // 
             // txbmatkhau
             // 
             this.txbmatkhau.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txbmatkhau.DefaultText = "123";
+            this.txbmatkhau.DefaultText = "";
             this.txbmatkhau.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txbmatkhau.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txbmatkhau.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -150,6 +150,7 @@
             this.txbmatkhau.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txbmatkhau.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txbmatkhau.IconLeft = global::GUI.Properties.Resources.Screenshot_2023_11_10_000615;
+            this.txbmatkhau.IconRight = global::GUI.Properties.Resources.istockphoto_1437023024_612x612;
             this.txbmatkhau.Location = new System.Drawing.Point(63, 223);
             this.txbmatkhau.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txbmatkhau.Name = "txbmatkhau";
@@ -162,7 +163,7 @@
             // txbtaikhoan
             // 
             this.txbtaikhoan.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txbtaikhoan.DefaultText = "admin1";
+            this.txbtaikhoan.DefaultText = "";
             this.txbtaikhoan.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txbtaikhoan.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txbtaikhoan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));

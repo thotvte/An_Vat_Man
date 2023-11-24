@@ -118,17 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="152532" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\152532.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="search7780" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search7780.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="istockphoto-821608714-1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\istockphoto-821608714-1024x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="34052446" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34052446.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="z4892295400944_bd1eae379ba47df0189a3889160b50fc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z4892295400944_bd1eae379ba47df0189a3889160b50fc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="account-25" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\account-25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="list-icon-png_265066" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list-icon-png_265066.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot 2023-11-10 000615" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2023-11-10 000615.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,13 +133,127 @@
   <data name="Screenshot 2023-11-10 095427" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2023-11-10 095427.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="70317" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\70317.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-tablecloth-chair-dining-room-logo-table-restaurant-icon-5b568743d66757.6849279715323973798782" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-tablecloth-chair-dining-room-logo-table-restaurant-icon-5b568743d66757.6849279715323973798782.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="34052445" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34052445.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-add-vector-icon-png-image_4707004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-add-vector-icon-png-image_4707004.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-add-vector-icon-png-image_4707006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-add-vector-icon-png-image_4707006.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="account-25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\account-25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-add-vector-icon-png-image_4707003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-add-vector-icon-png-image_4707003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-821608714-1024x10241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-821608714-1024x10241.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search77801" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search77801.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-3d-tick-sign-icon-okay-yes-photo-image_970356" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-3d-tick-sign-icon-okay-yes-photo-image_970356.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1437023024-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1437023024-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-add-vector-icon-png-image_4707002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-add-vector-icon-png-image_4707002.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-add-vector-icon-png-image_4707005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-add-vector-icon-png-image_4707005.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z4892295400944_bd1eae379ba47df0189a3889160b50fc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z4892295400944_bd1eae379ba47df0189a3889160b50fc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1194891687-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1194891687-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-821608714-1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-821608714-1024x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-portable-network-graphics-computer-icons-discounts-miaosha-svg-png-icon-free-download-232195-onl-5c2a1200b4c8d9.7343111715462609927405" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-portable-network-graphics-computer-icons-discounts-miaosha-svg-png-icon-free-download-232195-onl-5c2a1200b4c8d9.7343111715462609927405.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search77805" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search77805.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot 2023-11-10 0954271" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2023-11-10 0954271.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="34052444" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34052444.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="703171" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\703171.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-charity-poster-donation-illustration-vector-png-image_35671530" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-charity-poster-donation-illustration-vector-png-image_35671530.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="34052441" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34052441.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search77804" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search77804.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2023-11-10 093111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2023-11-10 093111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3405244" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3405244.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-computer-icons-hospital-favicon-desktop-wallpaper-view-details-icon-5ab04669bd62c1.7923114915215018017757" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-computer-icons-hospital-favicon-desktop-wallpaper-view-details-icon-5ab04669bd62c1.7923114915215018017757.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-statistics-icon-design-png-image_1011318" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-statistics-icon-design-png-image_1011318.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="34052442" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34052442.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-add-vector-icon-png-image_470700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-add-vector-icon-png-image_470700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="account-251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\account-251.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="395148108_1000279037751701_1024180486404782875_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\395148108_1000279037751701_1024180486404782875_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="34052443" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34052443.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="70317" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\70317.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-add-vector-icon-png-image_4707001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-add-vector-icon-png-image_4707001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="152532" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\152532.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search77803" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search77803.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-gallery-icon-for-your-project-png-image_1731100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-gallery-icon-for-your-project-png-image_1731100.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search77802" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search77802.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-warehouse-inventory-line-icon-vector-png-image_1820365 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-warehouse-inventory-line-icon-vector-png-image_1820365 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

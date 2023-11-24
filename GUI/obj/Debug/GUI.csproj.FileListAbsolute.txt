@@ -13,3 +13,7 @@ D:\C#\quanlyquanan4\GUI\obj\Debug\GUI.dangnhap.resources
 D:\C#\quanlyquanan4\GUI\obj\Debug\GUI.quanlyban.resources
 D:\C#\quanlyquanan4\GUI\obj\Debug\GUI.thongtincanhan.resources
 D:\C#\quanlyquanan4\GUI\obj\Debug\GUI.admin.resources
+D:\C#\quanlyquanan4\GUI\obj\Debug\GUI.suamonan.resources
+D:\C#\quanlyquanan4\GUI\obj\Debug\GUI.themmonan.resources
+D:\C#\quanlyquanan4\GUI\obj\Debug\GUI.suakhuyenmai.resources
+D:\C#\quanlyquanan4\GUI\obj\Debug\GUI.themkhuyenmai.resources

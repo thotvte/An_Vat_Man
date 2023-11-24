@@ -32,7 +32,7 @@ namespace GUI.DAL
         }
         public void InserBillInfo(int idbill, int idfood, int count)
         {
-            ketnoisql.Instance.ExecuteNonQuery("usp_themhoadonchithiet @idbill , @idfood , @count ", new object[] { idbill , idfood , count });
+            ketnoisql.Instance.ExecuteNonQuery("usp_insertBillinfo @idbill , @idfood , @count ", new object[] { idbill , idfood , count });
         }
     }
 }

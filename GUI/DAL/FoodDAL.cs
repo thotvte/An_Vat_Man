@@ -21,14 +21,15 @@ namespace GUI.DAL
         public List<Food> GetFoodbyCategoryID(int id)
         {
             List<Food> list = new List<Food>();
-            string query = "select * from menu where idmonan = "+id;
+            string query = "select * from menu where idmonan = " + id;
             DataTable data = ketnoisql.Instance.ExecuteQuery(query);
-            foreach (DataRow item in data.Rows) 
+            foreach (DataRow item in data.Rows)
             {
                 Food food = new Food(item);
                 list.Add(food);
             }
             return list;
         }
-    }
+        
+    } 
 }

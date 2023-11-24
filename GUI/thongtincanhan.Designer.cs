@@ -149,6 +149,7 @@
             this.Name = "thongtincanhan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "thongtincanhan";
+            this.Load += new System.EventHandler(this.thongtincanhan_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

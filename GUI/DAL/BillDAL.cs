@@ -22,7 +22,7 @@ namespace GUI.DAL
         // thất bại -1 
         public int getuncheckBillidbytableId(int id)
         {
-            DataTable data = ketnoisql.Instance.ExecuteQuery("select * from hoadon where id = " + id + "and trangthai = 0");
+            DataTable data = ketnoisql.Instance.ExecuteQuery("select * from hoadon where idban = " + id + "and trangthai = 0");
             if (data.Rows.Count > 0)
             {
                 Bill hoadondto = new Bill(data.Rows[0]);
@@ -32,7 +32,7 @@ namespace GUI.DAL
         }
         public void InsertBill(int id)
         {
-            ketnoisql.Instance.ExecuteNonQuery("exec usp_thembill @idban", new object[] { id });
+            ketnoisql.Instance.ExecuteNonQuery("exec usp_thembill @idban", new object[]{id});
         }
         public int Getmaxidhoadon()
         {

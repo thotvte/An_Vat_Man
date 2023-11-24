@@ -21,5 +21,10 @@ namespace GUI
         {
 
         }
+
+        private void thongtincanhan_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
