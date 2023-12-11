@@ -46,5 +46,14 @@ namespace GUI.DAL
                 return 1;
             }
         }
+        public void CheckOut(int id, int discount, float totalprice)
+        {
+            string query = "update hoadon set ngayraban = getdate(), trangthai = 1," + "discount =" + discount + ",totalprice =" + totalprice + " where id =  " + id;
+            ketnoisql.Instance.ExecuteNonQuery(query);
+        }
+        public DataTable GetBillListByDate(DateTime checkin, DateTime checkout)
+        {
+            return ketnoisql.Instance.ExecuteQuery("exec USP_GetListbillbydate @checkin , @checkout",new object[] {checkin,checkout});
+        }
     }
 }

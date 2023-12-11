@@ -58,6 +58,7 @@
     <Compile Include="admin.Designer.cs">
       <DependentUpon>admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="DTO\account.cs" />
     <Compile Include="suakhuyenmai.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,4 +1,5 @@
 ﻿using GUI.DAL;
+using GUI.DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,19 +29,23 @@ namespace GUI
 
         }
 
-        bool login(string tendangnhap , string matkhau)
+        bool login(string tendangnhap, string matkhau)
         {
-            return AcccountDAL.Instance.login(tendangnhap,matkhau);
+            return AcccountDAL.Instance.login(tendangnhap, matkhau);
         }
+        
+        
         private void btbdangnhap_Click(object sender, EventArgs e)
         {
             string tendangnhap = txbtaikhoan.Text;
             string matkhau = txbmatkhau.Text;
-            if(login(tendangnhap, matkhau))
+            if (login(tendangnhap, matkhau))
             {
+                account loginaccount = AcccountDAL.Instance.GetAccountByuserName(tendangnhap);
+                quanlyban f = new quanlyban(loginaccount);
                 this.Hide();
-                quanlyban qlb = new quanlyban();
-                qlb.ShowDialog();
+                
+                f.ShowDialog();
                 this.Show();
             }
             else

@@ -20,6 +20,10 @@ namespace GUI.DAL
         public static int TableWidth = 111;
         public static int TableHeight = 111;
         private TableDAL() { }
+        public void SwitchTable(int id1,int id2)
+        {
+            ketnoisql.Instance.ExecuteQuery("USP_SwitchTable1 @idtable1 , @idtable2",new object[] {id1,id2});
+        }
         public List<table> loadTableList()
         {
             List<table> tableList = new List<table>();
@@ -31,7 +35,24 @@ namespace GUI.DAL
             }
             return tableList;
         }
-           
-    
+
+        public bool InsertTable(string tenban)
+        {
+            string query = string.Format("INSERT INTO ban (tenban) VALUES (N'{0}')", tenban);
+            int result = ketnoisql.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool UpdateTable(int id, string tenban,String trangthai)
+        {
+            string query = string.Format("UPDATE ban SET tenban = N'{0}',trangthai = N'{1}'  WHERE id = {2}", tenban, trangthai, id);
+            int result = ketnoisql.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool DeleteTable(int id)
+        {
+            string query = string.Format("DELETE FROM ban WHERE id = {0}", id);
+            int result = ketnoisql.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
     }
 }

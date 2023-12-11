@@ -17,12 +17,27 @@ namespace GUI
 {
     public partial class quanlyban : Form
     {
-        public quanlyban()
+        private account loginaccount;
+
+        public account Loginaccount 
         {
+            get { return loginaccount; }
+            set { loginaccount = value; changeaccount(loginaccount.Quyen); }
+        }
+
+        public quanlyban(account acc)
+        {
+            this.loginaccount = acc;
+            
             InitializeComponent();
             loadTable();
             loadCategory();
+            loadcomboxtable(cbchuyenban);
             
+        }
+        void changeaccount(int quyen)
+        {
+            adminToolStripMenuItem.Enabled = quyen == 1;
 
         }
         void loadCategory()
@@ -39,6 +54,7 @@ namespace GUI
         }
         void loadTable()
         {
+            flpTable.Controls.Clear();
             List<table> danhSachBan = TableDAL.Instance.loadTableList();
             int x = 0; // Tọa độ x ban đầu
             int y = 0; // Tọa độ y ban đầu
@@ -85,9 +101,13 @@ namespace GUI
             }
             CultureInfo culture = new CultureInfo("vi-VN");
             txbTotaPrice.Text = totaPrice.ToString("c", culture);
-
+            
         }
-
+        void loadcomboxtable(ComboBox cb)
+        {
+            cb.DataSource = TableDAL.Instance.loadTableList();
+            cb.DisplayMember = "tenban";
+        }
         private void Btn_Click(object sender, EventArgs e)
         {
             int tableid = ((sender as Button).Tag as table).ID;
@@ -101,22 +121,37 @@ namespace GUI
            
 
         }
-
+        /**/
         private void thôngTinTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            thongtincanhan ttcn = new thongtincanhan();
+            thongtincanhan ttcn = new thongtincanhan(loginaccount);
             ttcn.ShowDialog();
+
             this.Show();
         }
-
+        /**/
         private void adminToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            admin admin = new admin();
-            admin.ShowDialog();
-            this.Show();
-        }
+            if (Loginaccount != null && Loginaccount.Quyen == 1)
+            {
+                // Người dùng có quyền admin, mở form admin
+                admin adm = new admin();
+                this.Hide();
+                adm.ShowDialog();
+                this.Show();
+            }
+            else
+            {
+                // Người dùng không có quyền admin, thông báo lỗi
+                MessageBox.Show("Bạn không có quyền truy cập vào form admin!");
+            }
 
+            /*admin adm = new admin();
+            this.Hide();
+            adm.ShowDialog();
+            this.Show();*/
+        }
+        
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
@@ -159,11 +194,83 @@ namespace GUI
                 BillinfoDAL.Instance.InserBillInfo(idbill, idfood, count);
             }
             showbill(Table.ID);
+            loadTable();
         }
 
         private void flpTable_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        /* private void btthanhtoan_Click(object sender, EventArgs e)
+         {
+             table table = lsvhoadon.Tag as table;
+             int idbill = BillDAL.Instance.getuncheckBillidbytableId(table.ID);
+             int discount = (int)nmgiamgia.Value;
+             double totalprice = Convert.ToDouble(txbTotaPrice.Text.Split(',')[0]);
+             double finalTotaprice = totalprice - (totalprice / 100) * discount;
+            
+            if (idbill != -1)
+            {
+                if (MessageBox.Show(string.Format("Bạn có chắc thanh toán hóa đơn cho bàn {0}\n Tổng tiền - (Tổng tiền/100) x Giảm giá = {1} - {{1} / 100} x {2} = {3} ", table.Tenban, totalprice, discount, finalTotaprice), "Thông báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
+                {
+                    BillDAL.Instance.CheckOut(idbill,discount);
+                     showbill(table.ID);
+                     loadTable();
+                 }
+             }
+         } */
+        private void btthanhtoan_Click(object sender, EventArgs e)
+        {
+            // Đoạn code này bị lỗi mọi vì kiểu dữ liệu table trùng với tên của class, đoạn code nên được viết lại để tránh nhầm lẫn
+            // Giả sử kiểu dữ liệu table được sửa thành TableDTO cụ thể
+            table table = lsvhoadon.Tag as table;
+
+            int idbill = BillDAL.Instance.getuncheckBillidbytableId(table.ID);
+            int discount = (int)nmgiamgia.Value;
+
+            // Sử dụng kiểu dữ liệu decimal thay vì double để tránh lỗi làm tròn số khi tính toán với tiền tệ
+            decimal totalprice = Convert.ToDecimal(txbTotaPrice.Text.Split(',')[0]);
+            decimal finalTotaprice = totalprice - (totalprice / 100) * discount;
+
+            if (idbill != -1)
+            {
+                // Đoạn mã dưới đây cần được sửa lại cách hiển thị dữ liệu trong MessageBox
+                // Đây là cách sửa với định dạng số thập phân
+                if (MessageBox.Show($"Bạn có chắc thanh toán hóa đơn cho bàn {table.Tenban}\n Tổng tiền - (Tổng tiền/100) x Giảm giá\n => {totalprice.ToString("N2")} - ({totalprice.ToString("N2")} / 100) x {discount} = {finalTotaprice.ToString("N2")}", "Thông báo", MessageBoxButtons.OKCancel) == DialogResult.OK)
+                {
+                    BillDAL.Instance.CheckOut(idbill, discount,(float)finalTotaprice);
+                    showbill(table.ID);
+                    loadTable();
+                }
+            }
+        }
+
+        private void txbTotaPrice_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btchuyenban_Click(object sender, EventArgs e)
+        {
+            int id1 = (lsvhoadon.Tag as table).ID;
+            int id2 = (cbchuyenban.SelectedItem as table).ID;
+            if(MessageBox.Show(string.Format("Bạn có thật sự muốn chuyển bàn {0} qua bàn {1}", (lsvhoadon.Tag as table).Tenban, (cbchuyenban.SelectedItem as table).Tenban),"Thông báo",MessageBoxButtons.OKCancel)==System.Windows.Forms.DialogResult.OK)
+            {
+                TableDAL.Instance.SwitchTable(id1, id2);
+                loadTable();
+            }
+            
+        }
+
+        private void taiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void muaMangVềToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng này đang được cập nhật !!!");
         }
     }
 }

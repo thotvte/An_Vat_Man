@@ -9,12 +9,12 @@ namespace GUI.DTO
 {
     public class Bill
     {
-        public Bill(int iD, DateTime? ngayraban, DateTime? ngayvaoban, int trangthai)
+        public Bill(int iD, DateTime? ngayraban, DateTime? ngayvaoban, int trangthai, int discount = 0)
         {
             this.ID = iD;
             this.Ngayraban = ngayraban;
             this.Ngayraban = ngayraban;
-            this.Trangthai = trangthai;
+            this.Discount = discount;
         }
         public Bill(DataRow row)
         {
@@ -28,15 +28,19 @@ namespace GUI.DTO
             }
 
             this.Trangthai = (int)row["trangthai"];
+            if(row["discount"].ToString() != "")
+                this.Trangthai = (int)row["discount"];
         }
         private int trangthai;
         private DateTime? ngayraban;
         private DateTime? ngayvaoban;
         private int iD;
+        private int discount;
 
         public int ID { get => iD; set => iD = value; }
         public DateTime? Ngayvaoban { get => ngayvaoban; set => ngayvaoban = value; }
         public DateTime? Ngayraban { get => ngayraban; set => ngayraban = value; }
         public int Trangthai { get => trangthai; set => trangthai = value; }
+        public int Discount { get => discount; set => discount = value; }
     }
 }
